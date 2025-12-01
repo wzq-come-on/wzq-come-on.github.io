@@ -16,13 +16,9 @@ My research interests include Computer Vision, Data Mining, and Deep Learning, w
 Education Experience
 ======
 - B.S. in Computer Science and Technology, Dalian Maritime University (211), 2022.09–2026.06  
-  Core Courses: C++ (95), Operating System (95), Computer Organization Principles (95), Database Principles (88), Data Structure (85), Computer Network (85)
 
 Skills
 ======
-- Programming Languages: Proficient in C/C++, Python, MATLAB; Familiar with SPSS, LaTeX, and Linux system operation
-- Deep Learning & Frameworks: Mastery of mainstream model structures (CNN, Transformer, GAN); Skilled in PyTorch for network construction, training optimization, and model deployment
-- Machine Learning Algorithms: Familiar with classic algorithms (KNN, K-means, SVM, Decision Tree); Experienced in data preprocessing and feature engineering
 - Hobbies: Music, Basketball
 
 Publications
@@ -55,8 +51,11 @@ Research & Internship Experience
 
 Honors & Awards
 ======
-- 2024: Silver Medal, ICPC Invitational Competition  
-- 2024: National Second Prize, RoboCon Robot Developer Competition  
-- 2024: National Second Prize, Global Campus Artificial Intelligence Algorithm Competition  
-- 2024: National Second Prize, National College Students Digital Media Technology Competition  
-- 2023: Provincial Second Prize, National College Students Mathematical Modeling Competition
+- 2025.07 National College Students Information Security and Countermeasure Technology Competition, National First Prize
+- 2025.05 Energy Economics Competition, National Special Prize, Provincial First Prize
+- 2024.11 National College Students Digital Media Technology Competition, National Second Prize, Provincial First Prize
+- 2024.11 Global Campus Artificial Intelligence Algorithm Competition, National Second Prize, Provincial Second Prize
+- 2024.08 RoboCon Robot Developer Competition, National Second Prize, Provincial Second Prize
+- 2024.06 China Robot and Artificial Intelligence Competition, Provincial Second Prize
+- 2024.06 ICPC Silk Road China Invitational Competition, Silver Medal
+- 2024.04 Blue Bridge Cup Competition, Provincial Second Prize
