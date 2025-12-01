@@ -7,38 +7,56 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year undergraduate student at the School of Information Science and Technology, Dalian Maritime University.
+I am a third-year undergraduate student at the School of Information Science and Technology, Dalian Maritime University (211), majoring in Computer Science and Technology with a GPA of 3.91/5 (average score: 89.1).
 
-I am very fortunate to be advised by Assoc. Prof. Qian Ma from School of Information Science and Technology, DMU.
+I am very fortunate to be advised by Assoc. Prof. Qian Ma from the School of Information Science and Technology, DMU.
 
-My research interest includes Computer Vision, Data Mining, and Deep Learning.
+My research interests include Computer Vision, Data Mining, and Deep Learning, with a focus on multivariate time series imputation and intelligent agent system development.
 
 Education Experience
 ======
-- B.S. in Dalian, Dalian Maritime University, 2022.09-2026.06
+- B.S. in Computer Science and Technology, Dalian Maritime University (211), 2022.09–2026.06  
+  Core Courses: C++ (95), Operating System (95), Computer Organization Principles (95), Database Principles (88), Data Structure (85), Computer Network (85)
 
 Skills
 ======
-- Music
-- Basketball
+- Programming Languages: Proficient in C/C++, Python, MATLAB; Familiar with SPSS, LaTeX, and Linux system operation
+- Deep Learning & Frameworks: Mastery of mainstream model structures (CNN, Transformer, GAN); Skilled in PyTorch for network construction, training optimization, and model deployment
+- Machine Learning Algorithms: Familiar with classic algorithms (KNN, K-means, SVM, Decision Tree); Experienced in data preprocessing and feature engineering
+- Hobbies: Music, Basketball
 
 Publications
 ======
-- None
 
-Participate in a project or competition
+Research & Internship Experience
 ======
-- Research Project "AttnWGAIN: Attention-Based Imputation Network", 2023.03–2025.07
- - As the first author, proposed AttnWGAIN model integrating WGAN and attention mechanism (WGAN+Transformer structure) and joint training task MIT+ORT for IoT multivariate time series missing data imputation. Achieved 5%-26% MAE reduction, 3%-33% RMSE reduction, and over 15% MRE reduction on four real-world datasets; models trained on imputed data achieved excellent performance in downstream classification tasks. The paper was accepted by TCE (CCF-B), and one invention patent is under substantive examination.
+### Research Projects
+1. **AttnWGAIN: Attention-Based Imputation Network** (2023.03–2025.07)  
+   - Role: First Author  
+   - Core Contributions: Proposed the AttnWGAIN model (WGAN+Transformer structure) and joint training task MIT+ORT for IoT multivariate time series missing data imputation; Achieved 5%–26% MAE reduction, 3%–33% RMSE reduction, and over 15% MRE reduction on four real-world datasets; Models trained on imputed data performed excellently in downstream classification tasks.  
+   - Outcomes: TCE (CCF-B) accepted; One invention patent under substantive examination.
 
-- Research Project "TimeMultiformer: Attention-Based Collaborative Feature Learning", 2025.01–2025.06
- - As the first author, developed TimeMultiformer for multivariate time series imputation. Introduced time-lag matrix to handle time intervals, adopted diagonal masked multi-head attention to avoid current dependencies, and combined Transformer and iTransformer to capture spatio-temporal dependencies. Reduced MAE by 2%-16%, RMSE by 10%-26%, and MRE by over 10% on four real datasets; significantly improved ROC-AUC, PR-AUC, and F1 scores in downstream classification tasks compared to SOTA models. The paper was accepted by WAIM (CCF-C).     
+2. **TimeMultiformer: Attention-Based Collaborative Feature Learning** (2025.01–2025.06)  
+   - Role: First Author  
+   - Core Contributions: Developed TimeMultiformer for multivariate time series imputation; Introduced time-lag matrix and diagonal masked multi-head attention; Combined Transformer and iTransformer to capture spatio-temporal dependencies; Reduced MAE by 2%–16%, RMSE by 10%–26%, MRE by over 10% on four real datasets; Improved ROC-AUC, PR-AUC, and F1 scores in downstream tasks compared to SOTA models.  
+   - Outcomes: WAIM (CCF-C) accepted.
 
-- Research Project "STIMim: Missing Structure-Aware Time-Series Imputation", 2024.10–Present
- - As the second author, proposed the STIMim framework for structured missing problems in multivariate time series data. Integrated VMPM mask distribution alignment mechanism to alleviate training-test distribution shift, combined iTransformer’s token representation ability and Mamba’s selective state space recursion to model cross-variable correlations and robustly recover long-range dependencies. Achieved significant performance improvements on three real datasets: under random missing conditions, MAE/RMSE/MRE increased by 25.5%/25.0%/26.0% respectively; under structured missing conditions, improved by 15.5%/6.5%/15.2% respectively. The paper is under submission to ICDE (CCF-A).
+3. **STIMim: Missing Structure-Aware Time-Series Imputation** (2024.10–Present)  
+   - Role: Second Author  
+   - Core Contributions: Proposed STIMim framework for structured missing problems in multivariate time series; Integrated VMPM mask distribution alignment mechanism to alleviate training-test distribution shift; Combined iTransformer and Mamba for cross-variable correlation modeling and long-range dependency recovery; Achieved 25.5%/25.0%/26.0% improvement in MAE/RMSE/MRE under random missing conditions, and 15.5%/6.5%/15.2% under structured missing conditions on three real datasets.  
+   - Outcomes: Paper under submission to ICDE (CCF-A).
 
-- Algorithm Internship at Neusoft Corporation (Commercial Software Division), 2025.10–Present
- - Participated in the R&D of an Agent Loop-based automated mobile phone recovery system, responsible for the visual perception and information retrieval subsystem. Designed and implemented an Adaptive RAG dynamic retrieval module to support Agent’s dynamic selection of optimal recovery steps based on interface status and task context, improving the planning stability and decision accuracy of complex recovery processes by 20%+. Built a high-precision screen element recognition pipeline using YOLOv8 + EasyOCR, encapsulated visual capabilities (target recognition, OCR parsing, coordinate generation) into reusable Vision Tools, and constructed abnormal recovery and failure retry logic to realize the multi-round closed-loop "observation-reasoning-execution" process of Agent.
+### Internship Experience
+- **Algorithm Intern**, Neusoft Corporation (Commercial Software Division) (2025.10–Present)  
+  - Participated in the R&D of an Agent Loop-based automated mobile phone recovery system, responsible for the visual perception and information retrieval subsystem.  
+  - Designed and implemented an Adaptive RAG dynamic retrieval module, improving planning stability and decision accuracy of complex recovery processes by over 20%.  
+  - Built a high-precision screen element recognition pipeline using YOLOv8 + EasyOCR; Encapsulated visual capabilities into reusable "Vision Tools" for Agent Loop calling.  
+  - Constructed abnormal recovery and failure retry logic, realizing Agent’s multi-round closed-loop "observation-reasoning-execution" process.
+
 Honors & Awards
 ======
-- B.S. in Dalian, Dalian Maritime University, 2022
+- 2024: Silver Medal, ICPC Invitational Competition  
+- 2024: National Second Prize, RoboCon Robot Developer Competition  
+- 2024: National Second Prize, Global Campus Artificial Intelligence Algorithm Competition  
+- 2024: National Second Prize, National College Students Digital Media Technology Competition  
+- 2023: Provincial Second Prize, National College Students Mathematical Modeling Competition
