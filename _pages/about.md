@@ -27,17 +27,17 @@ Publications
 Research & Internship Experience
 ======
 ### Research Projects
-1. **AttnWGAIN: Attention-Based Imputation Network** (2023.03–2025.07)  
+- **AttnWGAIN: Attention-Based Imputation Network** (2023.03–2025.07)  
    - Role: First Author  
    - Core Contributions: Proposed the AttnWGAIN model (WGAN+Transformer structure) and joint training task MIT+ORT for IoT multivariate time series missing data imputation; Achieved 5%–26% MAE reduction, 3%–33% RMSE reduction, and over 15% MRE reduction on four real-world datasets; Models trained on imputed data performed excellently in downstream classification tasks.  
    - Outcomes: TCE (CCF-B) accepted; One invention patent under substantive examination.
 
-2. **TimeMultiformer: Attention-Based Collaborative Feature Learning** (2025.01–2025.06)  
+- **TimeMultiformer: Attention-Based Collaborative Feature Learning** (2025.01–2025.06)  
    - Role: First Author  
    - Core Contributions: Developed TimeMultiformer for multivariate time series imputation; Introduced time-lag matrix and diagonal masked multi-head attention; Combined Transformer and iTransformer to capture spatio-temporal dependencies; Reduced MAE by 2%–16%, RMSE by 10%–26%, MRE by over 10% on four real datasets; Improved ROC-AUC, PR-AUC, and F1 scores in downstream tasks compared to SOTA models.  
    - Outcomes: WAIM (CCF-C) accepted.
 
-3. **STIMim: Missing Structure-Aware Time-Series Imputation** (2024.10–Present)  
+- **STIMim: Missing Structure-Aware Time-Series Imputation** (2024.10–Present)  
    - Role: Second Author  
    - Core Contributions: Proposed STIMim framework for structured missing problems in multivariate time series; Integrated VMPM mask distribution alignment mechanism to alleviate training-test distribution shift; Combined iTransformer and Mamba for cross-variable correlation modeling and long-range dependency recovery; Achieved 25.5%/25.0%/26.0% improvement in MAE/RMSE/MRE under random missing conditions, and 15.5%/6.5%/15.2% under structured missing conditions on three real datasets.  
    - Outcomes: Paper under submission to ICDE (CCF-A).
