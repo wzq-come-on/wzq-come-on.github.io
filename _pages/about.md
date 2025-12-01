@@ -15,11 +15,12 @@ My research interest includes Computer Vision, Data Mining, and Deep Learning.
 
 Education Experience
 ======
-- B.S. in Dalian, Dalian Maritime University, 2022
+- B.S. in Dalian, Dalian Maritime University, 2022.09-2026.06
 
 Skills
 ======
-- keeping
+- Music
+- Basketball
 
 Publications
 ======
@@ -27,7 +28,7 @@ Publications
 
 Participate in a project or competition
 ======
-- B.S. in Dalian, Dalian Maritime University, 2022
+- Research Project "AttnWGAIN: Attention-Based Imputation Network", 2023.03–2025.07
 
 Honors & Awards
 ======
