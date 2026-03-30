@@ -25,7 +25,7 @@ author:
   avatar           : "white.jpg"
   name             : "Zhaoqin Wang"
   pronouns         : #"He"# example: "she/her"  
-  bio              : "a third-year undergraduate student at Dalian Maritime University"
+  bio              : "a fourth-year undergraduate student at Dalian Maritime University"
   location         : "Earth"
   employer         : "Dalian Maritime University"
   uri              : # URL
@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=Fc21zXkAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-8657-637X"
