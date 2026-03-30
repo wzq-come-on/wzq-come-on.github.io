@@ -11,27 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Computer Science**, University of Science and Technology of China (USTC), 2026.09–Present
+* **B.S. in Computer Science and Technology**, Dalian Maritime University (211), 2022.09–2026.06 (GPA: 3.91/5.0)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Algorithm Intern**, Neusoft Corporation (Commercial Software Division) (2025.10–Present)
+  - Participated in the R&D of an Agent Loop-based automated mobile phone recovery system.
+  - Designed and implemented an Adaptive RAG dynamic retrieval module.
+  - Built a high-precision screen element recognition pipeline using YOLOv8 + EasyOCR.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
 * Skill 1

@@ -7,15 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year undergraduate student at the School of Information Science and Technology, Dalian Maritime University (211), majoring in Computer Science and Technology with a GPA of 3.91/5 (average score: 89.1).
+News
+======
+- **[2026.03]** I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver)! 
+- **[2025.10]** I started my internship as an Algorithm Intern at Neusoft Corporation.
 
-I am very fortunate to be advised by Assoc. Prof. Qian Ma from the School of Information Science and Technology, DMU.
+About Me
+======
+I am a first-year PhD student (admitted through recommended waiver) at the University of Science and Technology of China (USTC). I previously received my B.S. degree in Computer Science and Technology from Dalian Maritime University (211) in 2026, where I was a top-performing student with a GPA of 3.91/5 (average score: 89.1).
 
-My research interests include Computer Vision, Data Mining, and Deep Learning, with a focus on multivariate time series imputation and intelligent agent system development.
+I am very fortunate to be advised by Assoc. Prof. Qian Ma from the School of Information Science and Technology, DMU, and I am now continuing my research at USTC.
+
+My research interests include **Computer Vision**, **AI for Science**, and Deep Learning, with a focus on multivariate time series imputation and intelligent agent system development. Currently, I am exploring how deep learning can be applied to scientific discovery (AI for Science).
 
 Education Experience
 ======
-- B.S. in Computer Science and Technology, Dalian Maritime University (211), 2022.09–2026.06  
+- **Ph.D. in Computer Science**, University of Science and Technology of China (USTC), 2026.09–Present
+- **B.S. in Computer Science and Technology**, Dalian Maritime University (211), 2022.09–2026.06  
 
 Skills
 ======
