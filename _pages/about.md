@@ -29,8 +29,10 @@ Skills
 ======
 - Hobbies: Music, Basketball
 
+<!--
 Publications
 ======
+-->
 
 Research & Internship Experience
 ======
