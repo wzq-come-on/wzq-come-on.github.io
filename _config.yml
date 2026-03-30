@@ -22,7 +22,7 @@ repository               : "wzq-come-on/wzq-come-on.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo.jpg"
+  avatar           : "white.jpg"
   name             : "Zhaoqin Wang"
   pronouns         : #"He"# example: "she/her"  
   bio              : "PhD student at USTC. Interested in Computer Vision and AI for Science."
