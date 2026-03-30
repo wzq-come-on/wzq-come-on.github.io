@@ -11,9 +11,10 @@ News
 ======
 - **[2025.10]** I started my internship as an Algorithm Intern at Neusoft Corporation.
 - **[2025.09]** I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver)! 
+- 
 About Me
 ======
-I am a first-year PhD student (admitted through recommended waiver) at the University of Science and Technology of China (USTC). I previously received my B.S. degree in Computer Science and Technology from Dalian Maritime University (211) in 2026, where I was a top-performing student with a GPA of 3.91/5 (average score: 89.1).
+I am a senior undergraduate student at the School of Information Science and Technology, Dalian Maritime University (211), majoring in Computer Science and Technology with a GPA of 3.91/5 (average score: 89.1). I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver) for the class of 2026.
 
 I am very fortunate to be advised by Assoc. Prof. Qian Ma from the School of Information Science and Technology, DMU, and I am now continuing my research at USTC.
 
