@@ -41,26 +41,42 @@ My research interests include **Computer Vision**, **AI for Science**, and **Dat
 ### Time Series Imputation
 {% assign ts_imputation = site.publications | where: "category", "Time Series Imputation" | sort: "date" | reverse %}
 {% for post in ts_imputation %}
-  <div class="list__item" style="margin-bottom: 20px;">
+  <div class="list__item" style="margin-bottom: 30px;">
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <!-- Title -->
       <h3 class="archive__item-title" itemprop="headline" style="margin-bottom: 5px;">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
       </h3>
-      {% if post.authors %}
-        <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 5px 0; font-size: 0.9em;">
-          {{ post.authors }}
-        </p>
-      {% endif %}
-      {% if post.venue %}
-        <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 10px 0; font-style: italic; color: #666;">
-          {{ post.venue }}, {{ post.date | date: "%Y" }}
-        </p>
-      {% endif %}
+      
+      <!-- Authors -->
+      <p style="margin: 0 0 5px 0; font-size: 1.0em;">
+        {% if post.authors %}{{ post.authors }}{% endif %}
+      </p>
+
+      <!-- Venue & Year -->
+      <p style="margin: 0 0 5px 0; font-style: italic; color: #444;">
+        {% if post.venue %}{{ post.venue }}{% endif %}, {{ post.date | date: "%Y" }}
+      </p>
+
+      <!-- Description -->
       {% if post.excerpt %}
-        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 5px;">
+        <p style="margin: 5px 0 10px 0; font-size: 0.95em; color: #555;">
           {{ post.excerpt }}
         </p>
       {% endif %}
+
+      <!-- Links -->
+      <p style="margin: 10px 0 0 0;">
+        {% if post.paperurl and post.paperurl != "#" %}
+          <a href="{{ post.paperurl }}" style="text-decoration: none; border: 1px solid #ccc; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; margin-right: 5px; color: #333;">[Paper]</a>
+        {% endif %}
+        {% if post.codeurl and post.codeurl != "#" %}
+          <a href="{{ post.codeurl }}" style="text-decoration: none; border: 1px solid #ccc; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; margin-right: 5px; color: #333;">[Code]</a>
+        {% endif %}
+        {% if post.link %}
+          <a href="{{ post.link }}" style="text-decoration: none; border: 1px solid #ccc; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; margin-right: 5px; color: #333;">[Project]</a>
+        {% endif %}
+      </p>
     </article>
   </div>
 {% endfor %}

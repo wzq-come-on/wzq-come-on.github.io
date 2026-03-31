@@ -7,6 +7,7 @@ excerpt: 'Proposed the AttnWGAIN model (WGAN+Transformer structure) and joint tr
 date: 2025-07-01
 venue: 'IEEE Transactions on Consumer Electronics (TCE)'
 paperurl: '/files/AttnWGAIN_TCE_Wangzhaoqin.pdf'
+codeurl: 'https://github.com/wzq-come-on'
 authors: '<b>Zhaoqin Wang*</b>, Qian Ma†, et al.'
 ---
 
