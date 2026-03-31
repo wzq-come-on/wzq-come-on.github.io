@@ -36,7 +36,7 @@ My research interests include **Computer Vision**, **AI for Science**, and **Dat
 
 ⭐ Selected Works
 ======
-* denotes co-first author, † denotes corresponding author.
+† denotes corresponding author.
 
 ### Time Series Imputation
 {% assign ts_imputation = site.publications | where: "category", "Time Series Imputation" | sort: "date" | reverse %}
