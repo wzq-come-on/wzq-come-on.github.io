@@ -7,7 +7,7 @@ excerpt: 'Developed TimeMultiformer for multivariate time series imputation; Int
 date: 2025-06-01
 venue: 'WAIM 2025'
 paperurl: '/files/TimeMultiformer_WAIM_Wangzhaoqin.pdf'
-codeurl: 'https://github.com/wzq-come-on'
+codeurl: 'https://github.com/wzq-come-on/TimeMultiformer'
 authors: '<b>Zhaoqin Wang</b>, Qian Ma†, et al.'
 ---
 
