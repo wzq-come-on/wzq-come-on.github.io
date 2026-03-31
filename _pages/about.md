@@ -7,10 +7,14 @@ redirect_from:
   - /about.html
 ---
 
+<span id="news"></span>
+
 News
 ======
 - **[2025.10]** I started my internship as an Algorithm Intern at Neusoft Corporation.
 - **[2025.09]** I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver)! 
+
+<span id="about-me"></span>
 
 About Me
 ======
@@ -29,10 +33,16 @@ Skills
 ======
 - Hobbies: Music, Basketball
 
-<!--
+<span id="publications"></span>
+
 Publications
 ======
--->
+{% include base_path %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<span id="experience"></span>
 
 Research & Internship Experience
 ======
@@ -59,6 +69,8 @@ Research & Internship Experience
   - Built a high-precision screen element recognition pipeline using YOLOv8 + EasyOCR; Encapsulated visual capabilities into reusable "Vision Tools" for Agent Loop calling.  
   - Constructed abnormal recovery and failure retry logic, realizing Agent’s multi-round closed-loop "observation-reasoning-execution" process.
 
+<span id="honors"></span>
+
 Honors & Awards
 ======
 - 2025.07 National College Students Information Security and Countermeasure Technology Competition, National First Prize
@@ -69,3 +81,12 @@ Honors & Awards
 - 2024.06 China Robot and Artificial Intelligence Competition, Provincial Second Prize
 - 2024.06 ICPC Silk Road China Invitational Competition, Silver Medal
 - 2024.04 Blue Bridge Cup Competition, Provincial Second Prize
+
+<span id="blog"></span>
+
+Blog
+======
+{% for post in site.posts limit:5 %}
+  {% include archive-single.html %}
+{% endfor %}
+<a href="/year-archive/">See all posts</a>
