@@ -21,8 +21,8 @@ My research interests include **Computer Vision**, **AI for Science**, and **Dat
 
 🔥 News
 ======
-- **[2025.10]** I started my internship as an Algorithm Intern at Neusoft Corporation.
-- **[2025.09]** I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver)! 
+- **2025.10** 🏢 I started my internship as an Algorithm Intern at Neusoft Corporation.
+- **2025.09** 🎉 I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver)! 
 
 🎓 Education Experience
 ======
@@ -35,33 +35,41 @@ My research interests include **Computer Vision**, **AI for Science**, and **Dat
 
 <span id="publications"></span>
 
-⭐ Publications
+⭐ Selected Works
 ======
-{% include base_path %}
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+* denotes co-first author, † denotes corresponding author.
+
+### Time Series Imputation
+{% assign ts_imputation = site.publications | where: "category", "Time Series Imputation" | sort: "date" | reverse %}
+{% for post in ts_imputation %}
+  <div class="list__item" style="margin-bottom: 20px;">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <h3 class="archive__item-title" itemprop="headline" style="margin-bottom: 5px;">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      </h3>
+      {% if post.authors %}
+        <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 5px 0; font-size: 0.9em;">
+          {{ post.authors }}
+        </p>
+      {% endif %}
+      {% if post.venue %}
+        <p class="archive__item-excerpt" itemprop="description" style="margin: 0 0 10px 0; font-style: italic; color: #666;">
+          {{ post.venue }}, {{ post.date | date: "%Y" }}
+        </p>
+      {% endif %}
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 5px;">
+          {{ post.excerpt }}
+        </p>
+      {% endif %}
+    </article>
+  </div>
 {% endfor %}
 
 <span id="experience"></span>
 
 🏢 Research & Internship Experience
 ======
-### Research Projects
-- **AttnWGAIN: Attention-Based Imputation Network** (2023.03–2025.07)  
-   - Role: First Author  
-   - Core Contributions: Proposed the AttnWGAIN model (WGAN+Transformer structure) and joint training task MIT+ORT for IoT multivariate time series missing data imputation; Achieved 5%–26% MAE reduction, 3%–33% RMSE reduction, and over 15% MRE reduction on four real-world datasets; Models trained on imputed data performed excellently in downstream classification tasks.  
-   - Outcomes: IEEE Transactions on Consumer Electronics(IF 10.9) accepted; One invention patent under substantive examination.
-
-- **TimeMultiformer: Attention-Based Collaborative Feature Learning** (2025.01–2025.06)  
-   - Role: First Author  
-   - Core Contributions: Developed TimeMultiformer for multivariate time series imputation; Introduced time-lag matrix and diagonal masked multi-head attention; Combined Transformer and iTransformer to capture spatio-temporal dependencies; Reduced MAE by 2%–16%, RMSE by 10%–26%, MRE by over 10% on four real datasets; Improved ROC-AUC, PR-AUC, and F1 scores in downstream tasks compared to SOTA models.  
-   - Outcomes: WAIM2025 (CCF-C) accepted.
-
-- **STIMim: Missing Structure-Aware Time-Series Imputation** (2024.10–Present)  
-   - Role: Second Author  
-   - Core Contributions: Proposed STIMim framework for structured missing problems in multivariate time series; Integrated VMPM mask distribution alignment mechanism to alleviate training-test distribution shift; Combined iTransformer and Mamba for cross-variable correlation modeling and long-range dependency recovery; Achieved 25.5%/25.0%/26.0% improvement in MAE/RMSE/MRE under random missing conditions, and 15.5%/6.5%/15.2% under structured missing conditions on three real datasets.  
-   - Outcomes: Paper under submission to ICDE (CCF-A).
-
 ### Internship Experience
 - **Algorithm Intern**, Neusoft Corporation (Commercial Software Division) (2025.10–2026.01)  
   - Participated in the R&D of an Agent Loop-based automated mobile phone recovery system, responsible for the visual perception and information retrieval subsystem.  
