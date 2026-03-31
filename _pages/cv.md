@@ -33,6 +33,7 @@ Skills
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
+    {% if post.published == false %}{% continue %}{% endif %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   

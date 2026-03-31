@@ -41,6 +41,7 @@ My research interests include **Computer Vision**, **AI for Science**, and **Dat
 ### Time Series Imputation
 {% assign ts_imputation = site.publications | where: "category", "Time Series Imputation" | sort: "date" | reverse %}
 {% for post in ts_imputation %}
+  {% if post.published == false %}{% continue %}{% endif %}
   <div class="list__item" style="margin-bottom: 30px;">
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       <!-- Title -->

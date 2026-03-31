@@ -5,7 +5,7 @@ category: "Time Series Imputation"
 permalink: /publication/2025-06-01-time-multiformer
 excerpt: 'Developed TimeMultiformer for multivariate time series imputation; Introduced time-lag matrix and diagonal masked multi-head attention.'
 date: 2025-06-01
-venue: 'WAIM 2025'
+venue: 'APWeb-WAIM'
 paperurl: '/files/TimeMultiformer_WAIM_Wangzhaoqin.pdf'
 codeurl: 'https://github.com/wzq-come-on/TimeMultiformer'
 authors: '<b>Zhaoqin Wang</b>, Qian Ma†, et al.'
