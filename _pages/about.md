@@ -55,7 +55,11 @@ My research interests include **Computer Vision**, **AI for Science**, and **Dat
 
       <!-- Venue & Year -->
       <p style="margin: 0 0 5px 0; font-style: italic; color: #444;">
-        {% if post.venue %}{{ post.venue }}{% endif %}, {{ post.date | date: "%Y" }}
+        {% if post.venue %}
+          {{ post.venue }}{% unless post.venue contains post.date | date: "%Y" %}, {{ post.date | date: "%Y" }}{% endunless %}
+        {% else %}
+          {{ post.date | date: "%Y" }}
+        {% endif %}
       </p>
 
       <!-- Description -->
