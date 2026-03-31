@@ -7,16 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-<span id="news"></span>
-
-News
-======
-- **[2025.10]** I started my internship as an Algorithm Intern at Neusoft Corporation.
-- **[2025.09]** I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver)! 
-
 <span id="about-me"></span>
 
-About Me
+👋 About Me
 ======
 I am a senior undergraduate student at the School of Information Science and Technology, Dalian Maritime University (211), majoring in Computer Science and Technology with a GPA of 3.91/5 (average score: 89.1). I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver) for the class of 2026.
 
@@ -24,18 +17,25 @@ I am very fortunate to be advised by Assoc. Prof. Qian Ma from the School of Inf
 
 My research interests include **Computer Vision**, **AI for Science**, and **Data Mining**, with a focus on multivariate time series imputation and intelligent agent system development. Currently, I am exploring how deep learning can be applied to scientific discovery (AI for Science).
 
-Education Experience
+<span id="news"></span>
+
+🔥 News
+======
+- **[2025.10]** I started my internship as an Algorithm Intern at Neusoft Corporation.
+- **[2025.09]** I have been admitted to the University of Science and Technology of China (USTC) as a PhD student (recommended waiver)! 
+
+🎓 Education Experience
 ======
 - **Ph.D. in Computer Science**, University of Science and Technology of China (USTC), 2026.09–Present
 - **B.S. in Computer Science and Technology**, Dalian Maritime University (211), 2022.09–2026.06  
 
-Skills
+🛠️ Skills
 ======
 - Hobbies: Music, Basketball
 
 <span id="publications"></span>
 
-Publications
+⭐ Publications
 ======
 {% include base_path %}
 {% for post in site.publications reversed %}
@@ -44,7 +44,7 @@ Publications
 
 <span id="experience"></span>
 
-Research & Internship Experience
+🏢 Research & Internship Experience
 ======
 ### Research Projects
 - **AttnWGAIN: Attention-Based Imputation Network** (2023.03–2025.07)  
@@ -71,7 +71,7 @@ Research & Internship Experience
 
 <span id="honors"></span>
 
-Honors & Awards
+🏆 Honors & Awards
 ======
 - 2025.07 National College Students Information Security and Countermeasure Technology Competition, National First Prize
 - 2025.05 Energy Economics Competition, National Special Prize, Provincial First Prize
@@ -84,7 +84,7 @@ Honors & Awards
 
 <span id="blog"></span>
 
-Blog
+📝 Blog
 ======
 {% for post in site.posts limit:5 %}
   {% include archive-single.html %}
